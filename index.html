@@ -3,15 +3,13 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Minh Dao Personal Website</title>
+        <title>Minh Dao</title>
         <link rel="stylesheet" 
             href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" 
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
             integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
-            crossorigin="anonymous" />  
-    
-        <!-- Update these with your own fonts -->
+            crossorigin="anonymous" />      
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/style.css">
     </head>
@@ -19,7 +17,7 @@
 
         <header>
             <div class="logo">
-                <img src="img/devminh.png" alt=""> 
+                <img src="img/devMinh.png" alt=""> 
             </div>
             <button class="nav-toggle" aria-label="toggle navigation">
                 <span class="hamburger"></span>
@@ -27,9 +25,9 @@
             <nav class="nav">
                 <ui class = "nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">Who am I</a></li>
-                    <li class="nav__item"><a href="#about" class="nav__link">Projects</a></li>
-                    <li class="nav__item"><a href="#work" class="nav__link">Get in Contact</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Get in Contact</a></li>
                 </ui>
             </nav>
         </header>
@@ -39,131 +37,83 @@
             <h1 class="section__title section__title--intro">
                 Hello, I'm <strong>Minh Dao </strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro"> Aspiring Software Dev</p>
-            <img src="img/minh-dao.png" alt="A picture of me :D" class="intro__img">
         </section>
 
-        <!-- My services -->
-        <section class="my-services" id="services">
-            <h2 class="section__title section__title--services">What I do</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>Design + Development</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>E-Commerce</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-                
-                <div class="service">
-                    <h3>WordPress</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                </div> <!-- / service -->
-            </div> <!-- / services -->
-            <a href="#work" class="btn">My Work</a>
-        </section>
-
-         <!-- About me -->
-         <section class="about-me" id="about">
-            <h2 class="section__title section__title--about">Who I am</h2>
-            <p class="section__subtitle section__subtitle--about">Designer & developer based out of NYC</p>
-            
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">About Me</h2>
+            <p class="section__subtitle section__subtitle--about">Aspiring Software Engineer from Perth</p>
             <div class="about-me__body">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>I am currently in my final year of my degree in Software Engineering at Curtin University. I am also a 
+                    tutor at Curtin as well, teaching the units Introduction to Software Engineering and Data Structures and Algorithms.
+                    I have a keen interest in Full Stack Development, with experience in React.JS and ASP.Net. 
+                </p>
+                <p>
+                    Outside of tech, I am a big fan of escape rooms having worked at one for multiple years, where I helped design 
+                    and implement room escape puzzles as well as serve groups. I also enjoy board games with Coup being my favorite as well
+                    as listening to Podcasts. 
+                </p>
             </div>
             
-            <img src="img/dev-jane-02.jpg" alt="Jane leaning against a bus" class="about-me__img">
+            <img src="img/minh.dao.jpeg" alt="A very wholesome picture of me" class="about-me__img">
          </section>
 
-          
-        <!-- My Work -->
-        <section class="my-work" id="work">
-            <h2 class="section__title">My work</h2>
-            <p class="section__subtitle"></p>
-            
-            <div class="portfolio">
-                <!-- Portfolio item 01 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-01.jpg" alt="" class="portfolio__img">
-                </a>
+        <!--Work Experience -->
+        <section class="my-services" id="experience">
+            <h2 class="section__title section__title--services">Work Experience</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Xero</h3>
+                    <img src="img/xero.png" alt="Xero Logo" class="logos"> </img>
+                    <h4>Software Dev Intern</h4>
+                    <p>I was a Software Developer Intern on the payables team in the Melbourne office from Nov 2019 - Feb 2020. I got to work on 
+                        C# backends and React.JS frontend, adding new endpoints and UI elements, updating Teamcity build configs,
+                        creating Octopus release pipelines whilst writing unit and integration tests for the work I did using 
+                        Moq/Xunit, Wiremock, Jest and Enzyme. I was also given the opportunity to learn about AWS 
+                        deploying a full stack web application on AWS (S3, ECS, RDS) for an internal tool at Xero.
+                    </p>
+                </div> <!-- / service -->
                 
-                <!-- Portfolio item 02 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
-                </a>
+                <div class="service">
+                    <h3>Curtin University</h3>
+                    <img src="img/curtin.jpg" alt="Curtin Logo" class="logos2"></img>
+                    <h4>Sessional Academic Tutor</h4>
+                    <p>I am currently a Sessional Academic Tutor for the School of Electrical Engineering, Computing 
+                        and Mathematical Sciences (EECMS). I am responsible for tutoring computing students by facilitating practical and laboratory sessions 
+                        as well as mark test and assignments. I am currently tutoring Introduction to Software Engineering (ISAD-1000) and last semester I tutored Data Structures and Algorithms (COMP-1002).  </p>
+                </div> <!-- / service -->
                 
-                <!-- Portfolio item 03 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 04 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 05 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-05.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 06 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-06.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 07 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-07.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 08 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-08.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 09 -->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-09.jpg" alt="" class="portfolio__img">
-                </a>
-                
-                <!-- Portfolio item 0 0-->
-                <a href="#" class="portfolio__item">
-                    <img src="img/portfolio-10.jpg" alt="" class="portfolio__img">
-                </a>
-            </div>
+                <div class="service">
+                    <h3>Deloitte</h3>
+                    <img src="img/Deloitte.png" alt="Deloitte Logo" class="logos2"> </img>
+                    <h4>Student Software Developer</h4>
+                    <p>I completed my University Computing Project with Deloitte, developing a workplace health, safety & analytics full stack web application. 
+                        My main role within the project was working on the front end, creating a dynamic web dashboard using React, MapBox, Chart.JS and Material UI. We followed 
+                        Scrum methodology and used Azure DevOps for sprint/task allocation management.
+                    </p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            <a href="assets/Resume.pdf" class="btn" target="_blank">Resume</a>
         </section>
-        
+
+
         <!-- Footer -->
-        <footer>
-            <!-- replace with your own email address -->
-            <a href="mailto:hello@jane.dev" class="footer__link">hello@jane.dev</a>
+        <footer class="footer" id="contact">
+            <a href="nhatdao97@gmail.com" class="footer__link">nhatdao97@gmail.com</a>
             <ul class="social-list">
                 <li class="social-list__item">
-                    <a class="social-list__link" href="https://codepen.io">
-                        <i class="fab fa-codepen"></i>
+                    <a class="social-list__link" href="https://www.linkedin.com/in/minh-nhat-dao" target="_blank">
+                        <i class="fab fa-linkedin"></i>
                     </a>
                 </li>
                 <li class="social-list__item">
-                    <a class="social-list__link" href="http://dribbble.com">
-                        <i class="fab fa-dribbble"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://twitter.com">
-                        <i class="fab fa-twitter"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com">
+                    <a class="social-list__link" href="https://github.com/mndao" target="_blank">
                         <i class="fab fa-github"></i>
                     </a>
                 </li>
             </ul>
         </footer>
 
+        <script src="js/index.js"></script>
     </body>
 </html>
